@@ -1,0 +1,30 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.accordion{
+  width: 50%;
+  padding: 18px 90px;
+  margin-top: 100px;
+}
+.item{
+  border: 1px solid;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 3px 6px;
+  cursor: pointer;
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.desc{
+  max-height: 0;
+  overflow: hidden;
+}
+.desc.show{
+  height: auto;
+  max-height: 999px;
+}
