@@ -16,7 +16,7 @@ function App() {
       <div className="accordion">
           {data.map((ele,i) => (
             <div className='item' onClick={()=>toggle(i)}>
-              <div className='title'> <h2> {ele.place} </h2> <span>{select===i ? '-':'+'}</span> </div>
+              <div className='title'> <h2> {ele.place} </h2> <span className='symbol'>{select===i ? '-':'+'}</span> </div>
               <div className={select===i ? 'desc show':'desc'}> {ele.about}</div>
             </div>
 

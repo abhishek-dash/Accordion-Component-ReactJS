@@ -12,7 +12,8 @@
   border: 1px solid;
   border-radius: 5px;
   margin-bottom: 10px;
-  padding: 3px 6px;
+  padding: 0px 22px;
+  background-color: #0e09021f;
   cursor: pointer;
 }
 .title{
@@ -27,4 +28,9 @@
 .desc.show{
   height: auto;
   max-height: 999px;
+}
+.symbol{
+  font-weight:bold;
+  font-size: larger;
+  padding: 22px;
 }
